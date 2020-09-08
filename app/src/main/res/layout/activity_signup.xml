@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/redish_second"
+    android:orientation="vertical"
+    tools:context=".Auth.Signup">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbarid"
+        android:outlineSpotShadowColor="@color/redish"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:id="@+id/input_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="50dp"
+            android:layout_alignParentBottom="true"
+
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hall_of_fame_bold"
+                android:text="Blood Donation App"
+                android:textColor="#FFFFFF"
+                android:textSize="46sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="SIGN UP FORM"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="25dp"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/username_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_first"
+                android:hint="Username"
+                android:layout_marginTop="30dp"
+                android:inputType="textPersonName"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/Email_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_last"
+                android:hint="Email"
+                android:layout_marginTop="20dp"
+                android:inputType="textEmailAddress"
+                android:padding="15dp" />
+
+
+            <EditText
+                android:id="@+id/Age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_first"
+                android:hint="Age"
+                android:layout_marginTop="20dp"
+                android:inputType="numberDecimal"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/BloodGroup_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_last"
+                android:layout_marginTop="20dp"
+                android:hint="Blood Group"
+                android:padding="15dp" />
+
+
+            <EditText
+                android:id="@+id/Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_text_first"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/CourseName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_text_last"
+                android:hint="Course Name"
+                android:padding="15dp" />
+
+
+
+
+            <Button
+                android:id="@+id/Submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="#FE5295"
+                android:textSize="22sp"/>
+
+            <TextView
+                android:id="@+id/signUp_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:padding="10dp"
+                android:text="Don't Have an Account?  Sign In"
+                android:textAllCaps="true"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:textColor="#FAD0E1"
+                android:fontFamily="sans-serif"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

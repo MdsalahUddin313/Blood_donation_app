@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Request_user.Request_donor_for_donate">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:paddingLeft="25dp"
+        android:paddingTop="25dp"
+        android:paddingRight="25dp"
+        android:background="@drawable/hero_background"
+        android:src="@drawable/hero_logo_2"
+        >
+    </ImageView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginBottom="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full Name"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:text=""
+                android:padding="15dp"
+                android:inputType="text"
+                android:layout_margin="15dp"
+                ></EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:text=""
+                android:padding="15dp"
+                android:layout_margin="15dp"
+                android:inputType="text"
+                ></EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mobile No"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:text=""
+                android:padding="15dp"
+                android:layout_margin="15dp"
+                android:inputType="phone"
+                ></EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Blood group"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:text=""
+                android:padding="15dp"
+                android:layout_margin="15dp"
+                android:inputType="text"
+                ></EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Birth date:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:text=""
+                android:padding="15dp"
+                android:layout_margin="15dp"
+                android:inputType="text"
+                ></EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Why you want to Donate Blood?"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:text=""
+                android:padding="15dp"
+                android:layout_margin="15dp"
+                android:inputType="text"
+                ></EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Are you donate before(Yes/no)"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:text=""
+                android:padding="15dp"
+                android:layout_margin="15dp"
+                android:inputType="text"
+                ></EditText>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit Answers"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="150dp"
+                android:layout_gravity="center"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:layout_margin="15dp"
+                android:textSize="35sp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:background="@drawable/button_two"></Button>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

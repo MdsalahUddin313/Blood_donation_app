@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Blood donation app</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="one">1.Admin panel with user imformation..(Approve and delete request)2.Making a Donor\'s List
+        3.how donors in google map location</string>
+<string name="two">1.Making Architecture\n" +
+            "2.Making an attractive Design..\n" +
+            "3.Comple app using backened...\n" +
+            "4.Testing app</string>
+    <string name="three">1.When we give u any update,analize it carefully and suggest exact features what we need to do.If we start working an terms it will be difficult to switch in another terms (suppose we working on google map in that time you couldn\'t tell us to add another features instead of map..)..\n" +
+            2.After Doinng Project structure and design part you should pay 30-50% money in advance.Otherwise we can't work further.\n +
+            3.We always give you update for this project(weekly).We started your project from 4/9/2020 and will end this project at 24/9/2020.If you have any problem in giving us such time please discuss with us...\n\n\n\n</string>
+    <string name="four">1.Making Architecture\n" +
+            "2.Try to make an attractive Design..(Material design and Animation (alomost 60% done))\n" +
+            "3.Login Registration using backened...</string>
+</resources>

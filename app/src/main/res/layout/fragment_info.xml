@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/l_one_id"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:text="Patient"
+                    android:layout_weight="1"></Button>
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:text="help Line"
+                    android:layout_weight="1"></Button>
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:text="volunter"
+                    android:layout_weight="1"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_below="@+id/l_one_id"
+                android:id="@+id/l_two_id"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:text="Contact"
+                    android:layout_weight="1"></Button>
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:text="Advice"
+                    android:layout_weight="1"></Button>
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:text="Donate"
+                    android:layout_weight="1"></Button>
+            </LinearLayout>
+            <ImageView
+                android:layout_below="@+id/l_two_id"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/image_donor"
+                android:background="@drawable/donation_pic"></ImageView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/button_two"
+                android:layout_margin="15dp"
+                android:text="Rate Us"
+                android:textSize="35dp"
+                android:textColor="@android:color/white"
+                android:layout_below="@+id/image_donor"></Button>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

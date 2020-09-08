@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.Donors_list">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/list_one"
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="15dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+
+                android:text="AB+"></TextView>
+
+            <RelativeLayout
+                android:layout_weight="4"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/image_one"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_profile"></ImageButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/image_one"
+                    android:paddingLeft="15dp"
+                    android:text="Md abdus sattar"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp">
+
+                </TextView>
+
+                <LinearLayout
+                    android:id="@+id/location_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image_one"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <ImageButton
+                        android:id="@+id/locatio_logo_id"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_below="@+id/image_one"
+                        android:src="@drawable/ic_baseline_location_on_24"></ImageButton>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/locatio_logo_id"
+                        android:paddingLeft="15dp"
+                        android:text="Dhaka"
+
+                        android:textSize="15dp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/phone_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/location_layout"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <ImageButton
+                        android:id="@+id/phine_logo_id"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_phone"></ImageButton>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/locatio_logo_id"
+                        android:paddingLeft="15dp"
+                        android:text="0xxxxx952"
+
+                        android:textSize="15dp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/avaible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/phone_layout"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <ImageButton
+                        android:id="@+id/avaible_logo_id"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_ac_unit_24"></ImageButton>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/locatio_logo_id"
+                        android:paddingLeft="15dp"
+                        android:text="Available"
+                        android:textSize="15dp"></TextView>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/list_two"
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="15dp"
+        android:padding="10dp"
+        android:layout_below="@+id/list_one"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+
+                android:text="A+"></TextView>
+
+            <RelativeLayout
+                android:layout_weight="4"
+
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/image_two"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_profile"></ImageButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/image_two"
+                    android:paddingLeft="15dp"
+                    android:text="Sumaiya Akhter"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp">
+
+                </TextView>
+
+                <LinearLayout
+                    android:id="@+id/location_layouttwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image_two"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <ImageButton
+                        android:id="@+id/locatio_logotwo_id"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_below="@+id/image_one"
+                        android:src="@drawable/ic_baseline_location_on_24"></ImageButton>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/locatio_logotwo_id"
+                        android:paddingLeft="15dp"
+                        android:text="Hobigonj"
+
+                        android:textSize="15dp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/phone_layouttwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/location_layouttwo"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <ImageButton
+                        android:id="@+id/phine_logotwo_id"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_phone"></ImageButton>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/locatio_logotwo_id"
+                        android:paddingLeft="15dp"
+                        android:text="0xxxxx75+"
+
+                        android:textSize="15dp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/avaibletwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/phone_layouttwo"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <ImageButton
+                        android:id="@+id/avaible_logotwo_id"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_baseline_ac_unit_24"></ImageButton>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/locatio_logotwo_id"
+                        android:paddingLeft="15dp"
+                        android:text="Available"
+                        android:textSize="15dp"></TextView>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_ground_design"
+    tools:context=".Auth.Login">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/input_group">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hall_of_fame_bold"
+            android:text="Blood Donation App"
+            android:textColor="#FFFFFF"
+            android:textSize="46sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="SIGN IN"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar_login_id"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+    <LinearLayout
+        android:id="@+id/input_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_first"
+            android:hint="Email"
+            android:id="@+id/email_login_id"
+            android:inputType="textEmailAddress"
+            android:padding="15dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_last"
+            android:hint="Password"
+            android:id="@+id/password_login_id"
+            android:inputType="textPassword"
+            android:padding="15dp" />
+
+
+        <Button
+            android:id="@+id/button_signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="SIGN IN"
+            android:textAllCaps="false"
+            android:textColor="#FE5295"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:id="@+id/signUp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:padding="10dp"
+            android:text="Don't Have an Account?  Sign Up"
+            android:textAllCaps="true"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:textColor="#FAD0E1"
+            android:fontFamily="sans-serif"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profiles.Users_profile">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="25dp"
+        android:elevation="30dp"
+        android:layout_margin="15dp"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/profile_image"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_centerHorizontal="true"
+                android:elevation="25dp"
+                android:src="@drawable/logo2"
+                app:civ_border_color="#E91E63"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:id="@+id/blood_group_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_image"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:padding="15dp"
+                android:background="@android:color/white"
+                android:text="AB+"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="45dp">
+
+            </TextView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/profile_details_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/blood_group_id"
+                android:layout_marginTop="25dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/user_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:text="Name:   user"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/user_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/user_name"
+                        android:layout_marginLeft="25dp"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:text="Address:user"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/user_District"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/user_address"
+                        android:layout_marginLeft="25dp"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:text="District: Dhaka"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/user_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/user_District"
+                        android:layout_marginLeft="25dp"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:text="Phone: 0xxxxxx30"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"></TextView>
+                    <TextView
+                        android:id="@+id/user_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/user_phone"
+                        android:layout_marginLeft="25dp"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:text="Email: habijabi@mail.com"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/user_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/user_email"
+                        android:layout_marginLeft="25dp"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:text="Status: Ready to donate"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/set_donation_time_id"
+                        android:layout_below="@+id/user_status"
+                        android:layout_marginTop="15dp"
+                        android:gravity="left"
+                        android:background="@android:color/holo_red_dark"
+                        android:text="Set Last Donation time"
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"
+                        android:padding="10dp"
+                        android:layout_centerHorizontal="true"></Button>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/user_profile_update_button_id"
+                        android:layout_below="@+id/set_donation_time_id"
+                        android:layout_marginTop="15dp"
+                        android:gravity="left"
+                        android:background="@android:color/holo_red_dark"
+                        android:text="Edit your Profile"
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"
+                        android:padding="10dp"
+                        android:layout_centerHorizontal="true"></Button>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>
+</RelativeLayout>

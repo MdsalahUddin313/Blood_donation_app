@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Blood_type">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+
+
+    <string-array name="Blood_zilla_list">
+   <item> চট্টগ্রাম জেলা </item>
+    <item>গোপালগঞ্জ জেলা</item>
+    <item>মাদারীপুর জেলা</item>
+    <item>ঢাকা বিভাগ</item>
+    <item>  রাজবাড়ী জেলা</item>
+    <item>মুন্সিগঞ্জ জেলা</item>
+    <item>কিশোরগঞ্জ জেলা</item>
+    <item>টাঙ্গাইল জেলা</item>
+    <item>নারায়ণগঞ্জ জেলা</item>
+    <item> শরীয়তপুর জেলা</item>
+    <item>গাজীপুর জেলা</item>
+    <item>নরসিংদী জেলা</item>
+    <item>ফরিদপুর জেলা</item>
+    <item>  ঢাকা জেলা</item>
+    <item> বান্দরবান জেলা</item>
+    <item>খাগড়াছড়ি জেলা </item>
+    <item>কক্সবাজার জেলা </item>
+    <item> লক্ষ্মীপুর জেলা</item>
+    <item> চাঁদপুর জেলা</item>
+    <item>নোয়াখালী জেলা</item>
+    <item>ব্রাহ্মণবাড়িয়া জেলা </item>
+    <item>  ফেনী জেলা </item>
+    <item>কুমিল্লা জেলা </item>
+    </string-array>
+</resources>
